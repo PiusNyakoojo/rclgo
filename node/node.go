@@ -5,19 +5,21 @@ package node
 import "time"
 
 type Node struct {
-	Name string
+	name string
 	// rclcpp::context::Context::SharedPtr context,
-	Base       Base
-	Graph      Graph
-	Timers     Timers
-	Topics     Topics
-	Services   Services
-	Parameters Parameters
+	base       Base
+	graph      Graph
+	timers     Timers
+	topics     Topics
+	services   Services
+	parameters Parameters
 }
 
 // TODO: Accept values for base graph, etc..?
-func NewNode() {
+func NewNode() *Node {
+	var n Node
 
+	return &n
 }
 
 // TODO: Write test
