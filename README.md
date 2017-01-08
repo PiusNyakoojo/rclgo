@@ -1,7 +1,7 @@
 # rclgo
 ROS Client library for Go
 
-This is a Go wrapper for [ROS2]()'s client library. It is designed to provide an interface similar to rclcpp.
+This is a Go wrapper for [ROS2](https://github.com/ros2)'s client library. It is designed to provide an interface similar to rclcpp.
 
 ## TODO
 Inspired by [rclcs](https://github.com/firesurfer/rclcs)
